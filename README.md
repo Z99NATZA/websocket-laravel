@@ -10,9 +10,7 @@ npm install
 ```
 ---
 
-### ✨ Copy .env.example and rename to .env
-.env (comment this) 
-#### VITE_PUSHER_HOST="${PUSHER_HOST}"
+### 🧪 Copy .env.example and rename to .env
 
 ---
 
@@ -33,6 +31,13 @@ https://pusher.com/
 ---
 
 Would you like to install and build the Node dependencies required for broadcasting? (yes/no) [yes]
+
+---
+
+### 🧪 .env (comment this) 
+```bash
+# VITE_PUSHER_HOST="${PUSHER_HOST}"
+```
 
 ---
 
