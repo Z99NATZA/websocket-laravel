@@ -12,7 +12,7 @@ npm install
 
 ### ✨ Copy .env.example and rename to .env
 .env (comment this) 
-# VITE_PUSHER_HOST="${PUSHER_HOST}"
+#### VITE_PUSHER_HOST="${PUSHER_HOST}"
 
 ---
 
