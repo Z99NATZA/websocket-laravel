@@ -1,61 +1,27 @@
-## ✨ installation (Quick Start)
+## Installation
 ```bash
 git clone https://github.com/Z99NATZA/websocket-laravel.git
-
 cd websocket-laravel
-
 composer install
-
 npm install
-```
----
-
-### 🧪 Copy .env.example and rename to .env
-
----
-
-## ✨ installation (Quick Start)
-```bash
 php artisan key:generate
-
 php artisan install:broadcasting --pusher
-```
 
----
+# Pusher api key
+# https://pusher.com/
 
-### ⚙️ Pusher api key
-```bash
-https://pusher.com/
-```
+# Would you like to install and build the Node dependencies required for broadcasting? (yes/no) [yes]
 
----
-
-Would you like to install and build the Node dependencies required for broadcasting? (yes/no) [yes]
-
----
-
-### 🧪 .env (comment this) 
-```bash
+# .env
 # VITE_PUSHER_HOST="${PUSHER_HOST}"
-```
 
----
-
-### ⚙️ setup
-```bash
 php artisan config:clear
 php artisan cache:clear
 php artisan migrate
-```
 
-### 🤖 run
-```bash
+# run
 php artisan serve
 npm run dev
-```
 
-
-### 📌 URL (default)
-```bash
-localhost:8000
+# url default: localhost:8000
 ```
